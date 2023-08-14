@@ -1,4 +1,4 @@
-//Deletion Operation  Delete an element at given/particular index
+//Deletion Operation  Delete an element at given particular index
 #include<iostream>
 using namespace std;
 int main(){
