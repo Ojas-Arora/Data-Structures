@@ -2,8 +2,7 @@
 // Delete an element at given particular index
 #include<iostream>
 using namespace std;
-int main()
-{
+int main(){
 	int n,c,index;
 	cout<<"Enter number of elements in array"<<endl;
 	cin>>n;
@@ -16,7 +15,8 @@ int main()
 	cout<<"Delete Elements of the array"<<endl;
 	cout<<"Enter index"<<endl;
 	cin>>index;
-	for(int i=index;i<n;i++){
+	for(int i=index;i<n;i++)
+	{
 		array[index]=array[index+1];
 		index=index+1;
 	}
