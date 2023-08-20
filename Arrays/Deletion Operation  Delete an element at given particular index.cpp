@@ -2,13 +2,15 @@
 // Delete an element at given particular index
 #include<iostream>
 using namespace std;
-int main(){
+int main()
+{
 	int n,c,index;
 	cout<<"Enter number of elements in array"<<endl;
 	cin>>n;
 	int array[n];
 	cout<<"Enter Elements"<<endl;
-	for(c=0;c<n;c++){
+	for(c=0;c<n;c++)
+	{
 		cin>>array[c];
 	}
 	cout<<"Delete Elements of the array"<<endl;
